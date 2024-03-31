@@ -1,14 +1,9 @@
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
-
 :root {
   --theme-color:  #FF1818;  
   /* #ffb03b */
 }
 
-/* You can then use the variable in your CSS rules like this */
 element {
   background-color: var(--custom-color);
   color: var(--custom-color);
@@ -18,7 +13,6 @@ element {
 body {
   font-family: "Poppins", sans-serif;
   color: #444444;
-  /* max-width: 1440px; */
 }
 
 a {
@@ -45,9 +39,6 @@ h6 {
   margin: 0 auto;
 }
 
-/*--------------------------------------------------------------
-# Back to top button
---------------------------------------------------------------*/
 .back-to-top {
   position: fixed;
   visibility: hidden;
